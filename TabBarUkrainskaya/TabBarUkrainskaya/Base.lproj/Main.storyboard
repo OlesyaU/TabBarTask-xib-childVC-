@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="zO6-Dr-Lbi">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--BOY-->
+        <scene sceneID="Qxz-8v-45F">
+            <objects>
+                <viewController storyboardIdentifier="ViewController2" id="yfn-oS-ibi" customClass="ViewController2" customModule="TabBarUkrainskaya" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yml-PK-PUH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="72" translatesAutoresizingMaskIntoConstraints="NO" id="88f-qx-v73">
+                                <rect key="frame" x="16" y="250" width="343" height="162"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ehU-GU-tVi">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="45"/>
+                                        <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="25"/>
+                                        <state key="normal" title="GO TO XIB - VC">
+                                            <color key="titleColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="goToXibVCPressed:" destination="yfn-oS-ibi" eventType="touchUpInside" id="x3q-fk-Jo3"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e3X-8v-GFb">
+                                        <rect key="frame" x="0.0" y="117" width="343" height="45"/>
+                                        <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="25"/>
+                                        <state key="normal" title="GO TO CHILD VC">
+                                            <color key="titleColor" red="1" green="0.70753625549999999" blue="0.39775739869999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="goToChildVCButtonPressed:" destination="yfn-oS-ibi" eventType="touchUpInside" id="LzP-3U-Xjy"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="88f-qx-v73" firstAttribute="top" secondItem="ZX7-Uy-c4h" secondAttribute="top" constant="250" id="Q28-SB-4gu"/>
+                            <constraint firstItem="ZX7-Uy-c4h" firstAttribute="trailing" secondItem="88f-qx-v73" secondAttribute="trailing" constant="16" id="caG-Jt-d4d"/>
+                            <constraint firstItem="88f-qx-v73" firstAttribute="leading" secondItem="ZX7-Uy-c4h" secondAttribute="leading" constant="16" id="fuB-4A-dVU"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ZX7-Uy-c4h"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="BOY" image="барт-симпсон" id="xkX-fb-ZJN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W76-IG-UjQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="MAU-wW-uKZ" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="-234.40000000000001" y="224.4377811094453"/>
+        </scene>
+        <!--View Controller5-->
+        <scene sceneID="yRh-f2-jrM">
+            <objects>
+                <viewController storyboardIdentifier="ViewController5" id="B9E-30-FIp" customClass="ViewController5" customModule="TabBarUkrainskaya" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ozk-CE-dCO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XiF-G5-hRm">
+                                <rect key="frame" x="152" y="283.5" width="71" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="lsb-ue-AZd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="30"/>
+                                <state key="normal" title="BACK">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="backButtonPressed:" destination="B9E-30-FIp" eventType="touchUpInside" id="xyE-PQ-hCe"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="XiF-G5-hRm" firstAttribute="centerX" secondItem="Ozk-CE-dCO" secondAttribute="centerX" id="muD-7c-7J7"/>
+                            <constraint firstItem="XiF-G5-hRm" firstAttribute="centerY" secondItem="Ozk-CE-dCO" secondAttribute="centerY" id="v4o-RD-zkr"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="7oD-Kn-4SM"/>
+                    </view>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IW8-mb-nRO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="506" y="237"/>
+        </scene>
+        <!--GIRL-->
+        <scene sceneID="Oxg-kT-PKK">
+            <objects>
+                <viewController storyboardIdentifier="ViewController1" id="qeo-Z9-4mz" customClass="ViewController1" customModule="TabBarUkrainskaya" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Iy3-Af-zVF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3F5-UP-EU6">
+                                <rect key="frame" x="16" y="316.5" width="343" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9FE-oV-Xa4">
+                                <rect key="frame" x="155.5" y="380.5" width="64" height="45"/>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="25"/>
+                                <state key="normal" title="GO !">
+                                    <color key="titleColor" red="0.67254917512690349" green="0.21231453739890011" blue="0.0063385609463272596" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="goButtonPressed:" destination="qeo-Z9-4mz" eventType="touchUpInside" id="Ltl-Pp-4l9"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="MKv-lP-FVM" firstAttribute="trailing" secondItem="3F5-UP-EU6" secondAttribute="trailing" constant="16" id="EYr-Sc-yG6"/>
+                            <constraint firstItem="3F5-UP-EU6" firstAttribute="leading" secondItem="MKv-lP-FVM" secondAttribute="leading" constant="16" id="EyL-ta-o9R"/>
+                            <constraint firstItem="9FE-oV-Xa4" firstAttribute="centerX" secondItem="Iy3-Af-zVF" secondAttribute="centerX" id="LHs-aB-Kre"/>
+                            <constraint firstItem="9FE-oV-Xa4" firstAttribute="top" secondItem="3F5-UP-EU6" secondAttribute="bottom" constant="30" id="T7A-dy-FUI"/>
+                            <constraint firstItem="3F5-UP-EU6" firstAttribute="centerY" secondItem="Iy3-Af-zVF" secondAttribute="centerY" id="tvk-Xw-oCC"/>
+                            <constraint firstItem="3F5-UP-EU6" firstAttribute="centerX" secondItem="Iy3-Af-zVF" secondAttribute="centerX" id="way-Hi-Zou"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="MKv-lP-FVM"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="GIRL" image="лиза-симпсон" id="JrZ-MH-o8C"/>
+                    <connections>
+                        <outlet property="textField" destination="3F5-UP-EU6" id="Rkq-xr-BB7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wgM-d5-OJy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-236" y="-439.43028485757122"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Ijz-s8-nHm">
+            <objects>
+                <tabBarController id="zO6-Dr-Lbi" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="PQC-XV-OaF">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="qeo-Z9-4mz" kind="relationship" relationship="viewControllers" id="uqX-LT-Yyv"/>
+                        <segue destination="yfn-oS-ibi" kind="relationship" relationship="viewControllers" id="GL7-gJ-Ht7"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OkQ-aV-8w4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1188" y="-107"/>
+        </scene>
+        <!--View Controller3-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="ViewController3" id="BYZ-38-t0r" customClass="ViewController3" customModule="TabBarUkrainskaya" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="E4R-jF-liZ">
+                                <rect key="frame" x="137.5" y="533" width="100" height="45"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="25"/>
+                                <state key="normal" title="PUSH ME">
+                                    <color key="titleColor" red="0.02564431657605605" green="0.15405939027742688" blue="0.017226178999952338" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="F08-8O-RCI"/>
+                                    <segue destination="MAU-wW-uKZ" kind="unwind" unwindAction="unwindFromThirdVCWithSegue:" id="xcp-Di-HFS"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TEXT FROM PEV VC" textAlignment="center" lineBreakMode="clip" numberOfLines="0" baselineAdjustment="none" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="qyj-tC-sZl">
+                                <rect key="frame" x="56.5" y="318" width="262" height="31"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="E4R-jF-liZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7ib-TX-jwz"/>
+                            <constraint firstItem="qyj-tC-sZl" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Hqf-jV-BiG"/>
+                            <constraint firstItem="qyj-tC-sZl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MHY-qe-UE8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="E4R-jF-liZ" secondAttribute="bottom" constant="89" id="Qio-CW-kMN"/>
+                            <constraint firstItem="qyj-tC-sZl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qSI-UL-Sl7"/>
+                            <constraint firstItem="qyj-tC-sZl" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="vBY-r8-9Tl"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="label" destination="qyj-tC-sZl" id="50Q-p7-81h"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="604" y="-570.76461769115451"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="барт-симпсон" width="25" height="25"/>
+        <image name="лиза-симпсон" width="25" height="25"/>
+    </resources>
+</document>
